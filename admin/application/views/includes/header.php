@@ -67,10 +67,10 @@
       <a href="<?php echo base_url(); ?>" class="logo">
         <!-- mini logo for sidebar mini 50x50 pixels -->
         <span class="logo-mini">
-          <b>BSE</b>U</span>
+          <b>DGT</b></span>
         <!-- logo for regular state and mobile devices -->
         <span class="logo-lg">
-          <b>PARCEL</b>BHEJ</span>
+          <b>DGT</b> College</span>
       </a>
       <!-- Header Navbar: style can be found in header.less -->
       <nav class="navbar navbar-static-top" role="navigation">
@@ -169,7 +169,7 @@
               </li>
               <?php }?>
 
-              <?php //if (in_array("bannermodule", $jsonstringtoArray)){?>
+              <?php if (in_array("bannermodule", $jsonstringtoArray)){?>
                       <li class="treeview">
                         <a href="<?php echo base_url(); ?>banner">
                           <i class="fa fa-image"></i>
@@ -178,8 +178,8 @@
                           </i>
                         </a>
                       </li>
-              <?php //}?>
-              <?php //if (in_array("bannermodule", $jsonstringtoArray)){?>
+              <?php }?>
+              <?php if (in_array("eventmodule", $jsonstringtoArray)){?>
                       <li class="treeview">
                         <a href="<?php echo base_url(); ?>events">
                           <i class="fa fa-file"></i>
@@ -188,7 +188,7 @@
                           </i>
                         </a>
                       </li>
-              <?php //}?>
+              <?php }?>
               
         </ul>
       </section>
